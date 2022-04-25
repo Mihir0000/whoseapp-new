@@ -1,5 +1,0 @@
-export enum userConstant {
-    ALL_USERS_REQUEST = 'ALL_USERS_REQUEST',
-    ALL_USERS_SUCCESS = 'ALL_USERS_SUCCESS',
-    ALL_USERS_FAIL = 'ALL_USERS_FAIL',
-}

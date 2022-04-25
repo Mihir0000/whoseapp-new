@@ -1,4 +1,4 @@
-import { userConstant } from '../constants/userConstants';
+import { channelConstant } from '../constants/channelConstants';
 import { HYDRATE } from 'next-redux-wrapper';
 import { AnyAction } from 'redux';
 
@@ -24,21 +24,21 @@ const userReducer = (
                 ...state,
                 ...action.payload,
             };
-        case userConstant.ALL_USERS_REQUEST:
+        case channelConstant.CHANNEL_REQUEST:
             return {
                 ...state,
                 loading: true,
                 error: null,
                 data: [],
             };
-        case userConstant.ALL_USERS_SUCCESS:
+        case channelConstant.CHANNEL_SUCCESS:
             return {
                 ...state,
                 loading: false,
                 error: null,
                 data: action.payload,
             };
-        case userConstant.ALL_USERS_FAIL:
+        case channelConstant.CHANNEL_FAIL:
             return {
                 ...state,
                 loading: false,

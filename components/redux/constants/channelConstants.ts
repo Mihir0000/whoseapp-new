@@ -1,0 +1,5 @@
+export enum channelConstant {
+    CHANNEL_REQUEST = 'CHANNEL_REQUEST',
+    CHANNEL_SUCCESS = 'CHANNEL_SUCCESS',
+    CHANNEL_FAIL = 'CHANNEL_FAIL',
+}

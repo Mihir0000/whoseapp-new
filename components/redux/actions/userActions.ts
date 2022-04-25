@@ -1,4 +1,4 @@
-import { userConstant } from '../constants/userConstants';
+import { userConstant } from '../constants/channelConstants';
 
 interface userRequestAction {
     type: userConstant.ALL_USERS_REQUEST;
